@@ -1,4 +1,4 @@
-# ExampleContract
+# Function and Error Control
 
 This Solidity contract is an example contract that demonstrates some important concepts and statements used in Solidity programming. It includes functions to set and retrieve a value, as well as a function to revert a transaction.
 
