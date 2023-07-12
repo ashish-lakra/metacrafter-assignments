@@ -3,9 +3,9 @@
 This Solidity contract is an example contract that demonstrates some important concepts and statements used in Solidity programming. It includes functions to set and retrieve a value, as well as a function to revert a transaction.
 
 ## Functionality
-1. Contract successfully uses require()
-2. Contract successfully uses assert()
-3. Contract successfully uses revert() statements
+1. Contract successfully uses require() statement.
+2. Contract successfully uses assert() statement.
+3. Contract successfully uses revert() statement.
 
 ## Installation
 
