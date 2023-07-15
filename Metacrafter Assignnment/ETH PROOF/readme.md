@@ -53,5 +53,6 @@ Contributions to this project are welcome. Feel free to open issues and submit p
 
 ## Video Tutorial
 
+https://www.loom.com/share/297a35e3b54a4ea18c438b4bfeb863bb
 
 
