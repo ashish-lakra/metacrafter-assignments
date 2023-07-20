@@ -126,3 +126,5 @@ The contract is written in Solidity version 0.8.9. It should be compatible with 
 Contributions to this project are welcome. Feel free to open issues and submit pull requests to suggest improvements or fix any identified issues.
 
 ## Video Tutorial
+
+https://www.loom.com/share/93a3686db5114c01a4459e0b66ad38f4
