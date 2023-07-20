@@ -1,9 +1,11 @@
 const { expect } = require("chai")
 const { ethers } = require("ethers")
 
+// Contract Constants
 const NAME = "TokenMaster"
 const SYMBOL = "TM"
 
+// Occasion Constants
 const OCCASION_NAME = "F1 Grand Prix - Mumbai";
 const OCCASION_COST = ethers.utils.parseUnits('1', 'ether');
 const OCCASION_MAX_TICKETS = 100;
@@ -23,6 +25,7 @@ describe("TokenMaster", () => {
     const TokenMaster = await ethers.getContractFactory("TokenMaster")
     tokenMaster = await TokenMaster.deploy(NAME, SYMBOL)
 
+    // List an occasion
     const transaction = await tokenMaster.connect(deployer).list(
       OCCASION_NAME,
       OCCASION_COST,
@@ -35,6 +38,7 @@ describe("TokenMaster", () => {
     await transaction.wait()
   })
 
+  // Deployment Test Cases
   describe("Deployment", () => {
     it("Sets the name", async () => {
       expect(await tokenMaster.name()).to.equal(NAME)
@@ -49,8 +53,9 @@ describe("TokenMaster", () => {
     })
   })
 
+  // Occasions Test Cases
   describe("Occasions", () => {
-    it('Returns occasions attributes', async () => {
+    it('Returns occasion attributes', async () => {
       const occasion = await tokenMaster.getOccasion(1)
       expect(occasion.id).to.be.equal(1)
       expect(occasion.name).to.be.equal(OCCASION_NAME)
@@ -67,6 +72,7 @@ describe("TokenMaster", () => {
     })
   })
 
+  // Minting Test Cases
   describe("Minting", () => {
     const ID = 1
     const SEAT = 50
@@ -104,6 +110,7 @@ describe("TokenMaster", () => {
     })
   })
 
+  // Withdrawing Test Cases
   describe("Withdrawing", () => {
     const ID = 1
     const SEAT = 50
@@ -113,9 +120,11 @@ describe("TokenMaster", () => {
     beforeEach(async () => {
       balanceBefore = await ethers.provider.getBalance(deployer.address)
 
+      // Buy a ticket
       let transaction = await tokenMaster.connect(buyer).mint(ID, SEAT, { value: AMOUNT })
       await transaction.wait()
 
+      // Withdraw the contract balance
       transaction = await tokenMaster.connect(deployer).withdraw()
       await transaction.wait()
     })
