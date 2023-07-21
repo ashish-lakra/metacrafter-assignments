@@ -23,20 +23,20 @@ The TokenMaster smart contract is an Ethereum-based contract that facilitates th
 ### 1. Clone/Download the Repository
 
 ### 2. Install Dependencies:
-`$ npm install`
+` npm install`
 
 ### 3. Run tests
-`$ npx hardhat test`
+` npx hardhat test`
 
 ### 4. Start Hardhat node
-`$ npx hardhat node`
+` npx hardhat node`
 
 ### 5. Run deployment script
 In a separate terminal execute:
-`$ npx hardhat run ./scripts/deploy.js --network localhost`
+` npx hardhat run ./scripts/deploy.js --network localhost`
 
 ### 6. Start frontend
-`$ npm run start`
+` npm run start`
 
 ## Contract Overview
 
