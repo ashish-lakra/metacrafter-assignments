@@ -24,21 +24,21 @@ Token holders can burn (destroy) a specified amount of their own tokens, effecti
 
 ## Getting Started
 
-1. To deploy and use the MyToken ERC20 contract, follow these steps:
+To deploy and use the MyToken ERC20 contract, follow these steps:
 
-2. The `npx hardhat init` command is used to initialize a new Hardhat project.
+1. The `npx hardhat init` command is used to initialize a new Hardhat project.
 
-3. The `npm i @remix-project/remixd` command is used to install the remixd package. `remixd` is a tool that allows you to connect your local filesystem to the Remix IDE. This means that you can edit your Solidity contracts and other files on your computer, and the changes will be reflected in the Remix IDE in real time.
+2. The `npm i @remix-project/remixd` command is used to install the remixd package. `remixd` is a tool that allows you to connect your local filesystem to the Remix IDE. This means that you can edit your Solidity contracts and other files on your computer, and the changes will be reflected in the Remix IDE in real time.
 
-4. The `npx remixd` command is used to start a local server that allows you to connect your local filesystem to the Remix IDE.
+3. The `npx remixd` command is used to start a local server that allows you to connect your local filesystem to the Remix IDE.
 
-5. The `npx hardhat node` command is used to start a local Ethereum node that can be used for development and testing.
+4. The `npx hardhat node` command is used to start a local Ethereum node that can be used for development and testing.
 
-6. Open the Remix IDE.
+5. Open the Remix IDE.
 
-7. Change the workspace to localhost.
+6. Change the workspace to localhost.
 
-8. Click the "Connect" button.
+7. Click the "Connect" button.
 
 ## Contract Overview
 
