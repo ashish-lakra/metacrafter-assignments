@@ -2,7 +2,7 @@
 
 In this project, we will design a zkSNARK circuit using the Circom programming language to implement the following logical gate:
 
-![Image](Logic Circuit.png)
+![Logic Circuit](https://github.com/ashish-lakra/metacrafter-assignments/assets/105091911/56e0fd92-4478-43a5-b50a-5be3860a1235)
 
 - Logic Gate: The goal is to prove that you know the inputs A (0) and B (1) that yield a 0 output.
 
