@@ -31,4 +31,4 @@ const nfts = [
   },
 ];
 
-module.exports = nfts;
+module.exports = NFTs;
