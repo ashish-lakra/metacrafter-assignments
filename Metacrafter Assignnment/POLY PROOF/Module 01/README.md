@@ -1,4 +1,4 @@
-# OnePiece NFT Contract
+# Polygon Proof of Stake
 
 The **OnePiece** contract is an Ethereum-based smart contract that implements the ERC721A standard and allows the creation and management of unique Non-Fungible Tokens (NFTs). NFTs are digital assets that represent ownership of unique items or pieces of content, and they have become popular in various applications, including digital art, collectibles, and gaming.
 
