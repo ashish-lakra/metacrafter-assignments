@@ -25,4 +25,4 @@ for (let i = 0; i < nfts.length; i++) {
   );
 }
 
-// run node metadata/generateNftData.js
+
