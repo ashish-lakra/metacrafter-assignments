@@ -151,9 +151,9 @@ To successfully execute the project, follow these steps:
 
 Please exercise caution and follow best practices while executing the project, especially when handling sensitive data, interacting with smart contracts, and managing NFT assets.
 
-# Batch Mint Cricket ERC721A Tokens
+# Batch Mint ERC721A Tokens
 
-This script facilitates the batch minting of Cricket-themed ERC721A tokens on the Ethereum network. It uses the Hardhat development environment for Ethereum smart contracts and requires the specification of the private key and network provider URL to interact with the network. The script utilizes the `OnePiece` contract with the ERC721A implementation for creating the tokens.
+This script facilitates the batch minting of ERC721A tokens on the Ethereum network. It uses the Hardhat development environment for Ethereum smart contracts and requires the specification of the private key and network provider URL to interact with the network. The script utilizes the `OnePiece` contract with the ERC721A implementation for creating the tokens.
 
 ## Prerequisites
 
@@ -164,13 +164,13 @@ Before running the script, ensure the following:
 
 ## Execution
 
-To batch mint Cricket ERC721A tokens, follow these steps:
+To batch mint ERC721A tokens, follow these steps:
 
 1. **Define the Private Key**: Set the private key of the account that will execute the minting process in the `.env` file.
 
 2. **Network Provider**: The script is currently configured to connect to the Goerli test network using Alchemy's node (`https://eth-goerli.g.alchemy.com/v2/Bh22s-iYGmFwy-9Dq3New4jIpUES9xZt`). You may modify the `networkAddress` variable if you want to connect to a different Ethereum network.
 
-3. **Contract Address**: Ensure that the `contractAddress` variable is set to the address of the deployed `OnePiece` contract on the desired network. This contract should have the ERC721A implementation for Cricket tokens.
+3. **Contract Address**: Ensure that the `contractAddress` variable is set to the address of the deployed `OnePiece` contract on the desired network. This contract should have the ERC721A implementation for tokens.
 
 4. **Run the Script**: Execute the script by running `node <script_name>.js` in your terminal.
 
