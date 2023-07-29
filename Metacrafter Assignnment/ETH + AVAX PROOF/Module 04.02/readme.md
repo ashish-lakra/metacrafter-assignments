@@ -48,3 +48,5 @@ To deploy the `Degen` smart contract, you need to provide the following details:
 This smart contract is released under the MIT License.
 
 ## Video Explanation
+
+https://www.loom.com/share/0e62253f2d7a4d2b9109e39bae44a477
