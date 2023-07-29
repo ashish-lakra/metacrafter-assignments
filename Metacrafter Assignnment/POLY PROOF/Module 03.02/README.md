@@ -105,4 +105,4 @@ Please note that the above steps are a general outline of the project. Additiona
 
 ## Video Explanation
 
-[https://www.loom.com/share/37d51786c4634db88553e59296102e74](https://www.loom.com/share/83172e90c68e414f90c61ab150a6c7a9)https://www.loom.com/share/83172e90c68e414f90c61ab150a6c7a9
+https://www.loom.com/share/83172e90c68e414f90c61ab150a6c7a9
