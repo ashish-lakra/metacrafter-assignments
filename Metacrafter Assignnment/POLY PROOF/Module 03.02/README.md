@@ -46,7 +46,7 @@ The NOT gate is responsible for negating its input signal `in`. The output `out`
 
 ## Circuit Diagram
 
-
+![Logic Circuit](https://github.com/ashish-lakra/metacrafter-assignments/assets/105091911/154c4adc-a162-430c-b88c-0d38931e83fc)
 
 ## Usage
 
